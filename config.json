@@ -1,0 +1,23 @@
+{
+  "recording_rate": 4,
+
+  "feed": {
+    "module": "OBDII",
+    "config": {
+      "device": "/dev/tty.SLAB_USBtoUART",
+      "baud": 38400,
+      "schedule": [
+        "tach",
+        "voltage",
+        "tach",
+        "water_temp",
+        "tach",
+        "speed",
+        "tach",
+        
+      ]
+    }
+    // "module": "Dummy",
+    // "config": {}
+  }
+}
